@@ -8,6 +8,9 @@ import { VehiclesComponent } from './views/vehicles/vehicles.component';
 import { VehiclesCreateComponent } from './views/vehicles/vehicles-create/vehicles-create.component';
 import { VehiclesEditComponent } from './views/vehicles/vehicles-edit/vehicles-edit.component';
 import { AuthComponent } from './views/auth/auth.component';
+import { EstablishmentComponent } from './views/establishment/establishment.component';
+import { CustomerComponent } from './views/customer/customer.component';
+import { HomeComponent } from './views/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AuthComponent } from './views/auth/auth.component';
     VehiclesComponent,
     VehiclesCreateComponent,
     VehiclesEditComponent,
-    AuthComponent
+    AuthComponent,
+    EstablishmentComponent,
+    CustomerComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
